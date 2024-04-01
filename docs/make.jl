@@ -8,13 +8,15 @@ makedocs(;
     authors="Vitor Krauss",
     sitename="VKSetCovers.jl",
     format=Documenter.HTML(;
+        prettyurls = false,
         canonical="https://kraussvitor.github.io/VKSetCovers.jl",
         edit_link="master",
         assets=String[],
     ),
     pages=[
-        "Home" => "index.md",
-    ],
+        "Home" => ["index.md"],
+        "Instance File Reader" => "InstanceFileReader/index.md"
+    ]
 )
 
 deploydocs(;

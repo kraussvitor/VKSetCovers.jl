@@ -1,14 +1,12 @@
-```@meta
-CurrentModule = VKSetCovers
-```
-
 # VKSetCovers
 
 Documentation for [VKSetCovers](https://github.com/kraussvitor/VKSetCovers.jl).
 
-```@index
-```
+<!--
+This module implements some algorithms for set cover problems, including set cover problems with lazy constraints. 
+The algorithms include an integer programming formulation, as well as a non-delayed relax-and-cut heuristic and a local-search procedure.
+-->
 
-```@autodocs
-Modules = [VKSetCovers]
+```@meta
+CurrentModule = VKSetCovers
 ```
