@@ -1,0 +1,13 @@
+name = "VKSetCovers"
+uuid = "7005c2b1-beea-4b34-849b-5f29daed1df4"
+authors = ["Vitor Krauss"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.10.2"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
