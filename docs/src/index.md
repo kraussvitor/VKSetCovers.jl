@@ -10,3 +10,7 @@ The algorithms include an integer programming formulation, as well as a non-dela
 ```@meta
 CurrentModule = VKSetCovers
 ```
+
+```@docs
+VKSetCovers
+```
