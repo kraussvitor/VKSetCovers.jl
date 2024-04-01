@@ -1,6 +1,6 @@
 # Instance Files Reader
 
-Contains methods for reading instances stored in files.
+Contains methods for reading instances stored in text files.
 Types of instances include: graphs, set cover problem and directed and undirected Steiner tree problem.
 
 ```@meta
